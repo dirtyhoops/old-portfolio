@@ -252,7 +252,7 @@ and (max-device-width : 736px) {
   }
 
   .titlediv {
-      font-size: 2.2em;
+      font-size: 2.5em;
   }
 
 
@@ -260,15 +260,15 @@ and (max-device-width : 736px) {
 
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
-    width: 180px;
+    width: 240px;
   }
 
   #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 1.9em;
+  font-size: 2.2em;
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: .9em;
+    font-size: 1.2em;
   }
 
   #aboutmecontent {
@@ -290,12 +290,12 @@ and (max-device-width : 736px) {
   }
 
   #aboutdiv i {
-  font-size: 50px;
+  font-size: 63px;
   }
 
   #aboutdiv i:hover{
     color: gray;
-    font-size: 51px;
+    font-size: 64px;
   }
 
   .skillrow {
