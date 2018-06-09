@@ -143,7 +143,7 @@ nav ul li a {
   display: none;
 }
 
-@media(max-width: 580px) {
+@media(max-width: 749px) {
   .logo {
     position: fixed;
     top: 0;
@@ -252,7 +252,7 @@ nav ul li a {
 
 
 
-@media(max-width: 580px) {
+@media(max-width: 749px) {
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
     width: 130px;
@@ -263,7 +263,7 @@ nav ul li a {
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: .5em;
+    font-size: .6em;
   }
 
   #aboutmecontent {
@@ -281,6 +281,7 @@ nav ul li a {
   #aboutdiv {
     height: 120vh;
     width: 100%;
+    padding: 20px;
   }
 
   #aboutdiv i {
