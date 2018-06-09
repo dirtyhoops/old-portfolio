@@ -221,7 +221,7 @@ nav ul li a {
 @media screen (max-device-width:736px) {
   .logo {
     position: fixed;
-    top: 0;
+    /*top: 0;*/
     margin-top: 16px;
   }
 
@@ -262,11 +262,11 @@ nav ul li a {
   }
 
   #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: 1em;
+    font-size: .85em;
   }
 
   #aboutmecontent {
@@ -282,7 +282,7 @@ nav ul li a {
   }
 
   #aboutdiv {
-    height: 120vh;
+    height: 145vh;
     width: 100%;
     padding: 20px;
   }
