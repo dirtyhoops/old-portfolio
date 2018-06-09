@@ -218,7 +218,7 @@ nav ul li a {
 
 
 
-@media(max-width: 750px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
 
 
   .logo {
@@ -257,7 +257,7 @@ nav ul li a {
 
 
 
-  
+
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
     width: 130px;
