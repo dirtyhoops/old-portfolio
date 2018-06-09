@@ -143,7 +143,7 @@ nav ul li a {
   display: none;
 }
 
-@media(max-width: 580px) {
+@media(max-width: 749px) {
   .logo {
     position: fixed;
     top: 0;
