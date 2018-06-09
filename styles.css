@@ -268,27 +268,29 @@ nav ul li a {
 
   #aboutmecontent {
     padding-top: 5px;
-    margin: 10px 20px 0px 20px;
+    margin: 0;
     width: 100%;
   }
+
   #aboutmecontent1 {
     padding: 20px;
-    margin: 10px 20px 0px 20px;
+    margin: 0;
     width: 100%;
   }
 
   #aboutdiv {
     height: 120vh;
+    width: 100%;
   }
 
   #aboutdiv i {
   font-size: 40px;
-}
+  }
 
-#aboutdiv i:hover{
-  color: gray;
-  font-size: 41px;
-}
+  #aboutdiv i:hover{
+    color: gray;
+    font-size: 41px;
+  }
 
   .skillrow {
     text-align: center;
@@ -299,13 +301,14 @@ nav ul li a {
     margin: 10px;
     text-align: center;
   }
+
 }
 
 
  
 
-
-@media(max-width: 1081px) {
+/*
+@media(max-width: 1079px) {
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
     width: 130px;
@@ -355,8 +358,8 @@ nav ul li a {
     margin: 10px;
     text-align: center;
   }
-} 
-
+} */
+/*
  @media(max-width: 1280px) {
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
@@ -410,3 +413,4 @@ nav ul li a {
 } 
 
 
+*/
