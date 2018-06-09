@@ -219,8 +219,6 @@ nav ul li a {
 
 
 @media screen (max-device-width:736px) {
-
-
   .logo {
     position: fixed;
     top: 0;
@@ -252,7 +250,7 @@ nav ul li a {
   }
 
   .titlediv {
-      font-size: 1.2em;
+      font-size: 2em;
   }
 
 
@@ -260,15 +258,15 @@ nav ul li a {
 
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
-    width: 130px;
+    width: 180px;
   }
 
   #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 1.3em;
+  font-size: 2em;
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: .6em;
+    font-size: 1em;
   }
 
   #aboutmecontent {
@@ -290,12 +288,12 @@ nav ul li a {
   }
 
   #aboutdiv i {
-  font-size: 40px;
+  font-size: 50px;
   }
 
   #aboutdiv i:hover{
     color: gray;
-    font-size: 41px;
+    font-size: 51px;
   }
 
   .skillrow {
