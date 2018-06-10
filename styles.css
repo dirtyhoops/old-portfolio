@@ -216,14 +216,27 @@ nav ul li a {
 }
 
 .skillcol p {
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 
 
+
+/*for macbook 13 inch */
+@media (min-width: 768px) and (max-width: 1366px) {
+  #aboutmecontent, #aboutmecontent1 {
+    font-size: 1.2em;
+  }
+}
+
+
+
+
+
+/*for iphone 6/6+7/8/7+/8+/x*/
 @media only screen
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
+and (min-device-width : 375px) 
+and (max-device-width : 812px) {
   .logo {
     position: fixed;
     top: 0;
@@ -270,8 +283,107 @@ and (max-device-width : 736px) {
       font-size: 2.7em;
   }
 
+  .aboutmepicture img {
+    margin: 140px 0px 20px 0px;
+    width: 245px;
+  }
+
+  #aboutmecontent h2, #aboutmecontent1 h2 {
+  font-size: 2.6em;
+  }
+
+  #aboutmecontent p, #aboutmecontent1 p {
+    font-size: 1.5em;
+  }
+
+  #aboutmecontent {
+    padding-top: 5px;
+    margin: 0;
+    width: 100%;
+  }
+
+  #aboutmecontent1 {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+
+  #aboutdiv {
+    height: 110vh;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #aboutdiv i {
+  font-size: 90px;
+  }
+
+  #aboutdiv i:hover{
+    color: gray;
+    font-size: 91px;
+  }
+
+  .skillrow {
+    text-align: center;
+  }
+
+  .skillcol {
+    display: inline-block;
+    margin: 10px 15px;
+    text-align: center;
+  }
+}
 
 
+/*for samsung phones*/
+@media only screen
+and (min-device-width : 360px) 
+and (max-device-width : 640px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 25px;
+    font-size: 50px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+        transition: .5s;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 35em;
+
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 45px;
+    text-align: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+  }
+
+  .menu-icon {
+    display: block;
+    padding: 40px;
+    font-size: 27px;
+
+  }
+
+  .titlediv {
+      font-size: 2.7em;
+  }
 
   .aboutmepicture img {
     margin: 140px 0px 20px 0px;
@@ -324,6 +436,12 @@ and (max-device-width : 736px) {
   }
 
 }
+
+
+
+
+
+
 
 
  
