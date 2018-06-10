@@ -264,14 +264,14 @@ and (max-device-width : 736px) {
   }
 
   .titlediv {
-      font-size: 2.8em;
+      font-size: 2.7em;
   }
 
 
 
 
   .aboutmepicture img {
-    margin: 85px 0px 20px 0px;
+    margin: 140px 0px 20px 0px;
     width: 245px;
   }
 
@@ -296,7 +296,7 @@ and (max-device-width : 736px) {
   }
 
   #aboutdiv {
-    height: 110vh;
+    height: 115vh;
     width: 100%;
     padding: 20px;
   }
