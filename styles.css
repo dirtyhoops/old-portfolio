@@ -224,12 +224,14 @@ and (max-device-width : 736px) {
   .logo {
     position: fixed;
     top: 0;
-    margin-top: 16px;
+    margin-top: 25px;
+    font-size: 50px;
   }
 
   nav ul {
     max-height: 0px;
     background: #000;
+        transition: .5s;
   }
 
   nav.black ul {
@@ -237,22 +239,32 @@ and (max-device-width : 736px) {
   }
 
   .showing {
-    max-height: 27em;
+    max-height: 35em;
+
   }
 
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 22px 0;
+    padding-bottom: 45px;
     text-align: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
   }
 
   .menu-icon {
     display: block;
+    padding: 40px;
+    font-size: 27px;
+
   }
 
   .titlediv {
-      font-size: 2.5em;
+      font-size: 2.8em;
   }
 
 
@@ -260,15 +272,15 @@ and (max-device-width : 736px) {
 
   .aboutmepicture img {
     margin: 85px 0px 20px 0px;
-    width: 240px;
+    width: 245px;
   }
 
   #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 2.2em;
+  font-size: 2.6em;
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   #aboutmecontent {
@@ -284,18 +296,18 @@ and (max-device-width : 736px) {
   }
 
   #aboutdiv {
-    height: 150vh;
+    height: 110vh;
     width: 100%;
     padding: 20px;
   }
 
   #aboutdiv i {
-  font-size: 63px;
+  font-size: 90px;
   }
 
   #aboutdiv i:hover{
     color: gray;
-    font-size: 64px;
+    font-size: 91px;
   }
 
   .skillrow {
@@ -304,7 +316,7 @@ and (max-device-width : 736px) {
 
   .skillcol {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 15px;
     text-align: center;
   }
 

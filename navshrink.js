@@ -9,27 +9,27 @@ $(window).scroll(function() {
 $(document).ready(function(){
 	$("#link0").click(function(){
         $path=$("#homediv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
    $("#link1").click(function(){
         $path=$("#aboutdiv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
    $("#link2").click(function(){
         $path=$("#educationdiv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
    $("#link3").click(function(){
         $path=$("#projectdiv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
    $("#link4").click(function(){
         $path=$("#experiencediv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
    $("#link5").click(function(){
         $path=$("#homediv").offset().top;
-        $('html, body').animate({scrollTop:$path},1000);
+        $('html, body').animate({scrollTop:$path},850);
    });
 
 });
@@ -41,6 +41,12 @@ $(document).ready(function() {
 	$(".menu-icon").on("click", function() {
 		$("nav ul").toggleClass("showing");
 	});
+});
+
+$(document).ready(function() {
+  $("ul li a").on("click", function() {
+    $("nav ul").toggleClass("showing");
+  });
 });
 
 // scrolling effect for nav bar
