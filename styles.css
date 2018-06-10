@@ -215,6 +215,9 @@ nav ul li a {
   text-align: center;
 }
 
+.skillcol p {
+  margin-top: -20px;
+}
 
 
 
@@ -296,7 +299,7 @@ and (max-device-width : 736px) {
   }
 
   #aboutdiv {
-    height: 115vh;
+    height: 110vh;
     width: 100%;
     padding: 20px;
   }
