@@ -442,6 +442,10 @@ and (-webkit-device-pixel-ratio: 3) {
     height: 120vh;
   }
 
+  .coollink::after {
+    content: none;
+  }
+
 }
 
 
