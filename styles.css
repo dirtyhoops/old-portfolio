@@ -242,6 +242,82 @@ nav ul li a {
 
 
 
+/*************** FOR PROJECTS ******************/
+.projectheader {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  padding-top: 70px;
+}
+
+.projectheader h2 {
+   font-weight: bold;
+}
+
+.projectcontainer {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.projectrow1 {
+  width: 30%;
+  height: 34vh;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+  /* border-radius: 5px; */
+  box-shadow: 0 3px 5px rgba(0,0,0,.5);
+  margin: 0px -2px;
+}
+
+.projectrow1image img {
+  width: 100%;
+  height: 34vh;
+  transition: .5s;
+}
+
+.projectrow1:hover .projectrow1image img {
+  opacity: .03;
+}
+
+.projectrow1 .description {
+  position: absolute;
+  margin: auto 10%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  opacity: 0;
+}
+
+.projectrow1:hover .description {
+  opacity: 1;
+  bottom: 25%;
+}
+
+/*******************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*for macbook 13 inch */
 @media (min-width: 768px) and (max-width: 1366px) {
   #aboutmecontent, #aboutmecontent1 {
@@ -277,7 +353,6 @@ and (-webkit-device-pixel-ratio: 3) {
 
   .showing {
     max-height: 35em;
-
   }
 
   nav ul li {
@@ -292,7 +367,7 @@ and (-webkit-device-pixel-ratio: 3) {
     color: #fff;
     font-size: 35px;
   }
-
+  
   .menu-icon {
     display: block;
     padding: 40px;
@@ -314,7 +389,7 @@ and (-webkit-device-pixel-ratio: 3) {
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   #aboutmecontent {
@@ -335,13 +410,13 @@ and (-webkit-device-pixel-ratio: 3) {
     padding: 20px;
   }
 
-  #aboutdiv i {
-  font-size: 90px;
+  #skillsdiv i {
+  font-size: 130px;
   }
 
-  #aboutdiv i:hover{
+  #skillsdiv i:hover{
     color: gray;
-    font-size: 91px;
+    font-size: 131px;
   }
 
   .skillrow {
@@ -353,7 +428,22 @@ and (-webkit-device-pixel-ratio: 3) {
     margin: 10px 15px;
     text-align: center;
   }
+
+
+  .projectrow1 {
+    width: 95%;
+    height: 34vh;
+    margin: 10px 0px;
+    border-radius: 10px;
+  }
+
+  #projectdiv {
+    padding-top: 100px;
+    height: 120vh;
+  }
+
 }
+
 
 
 @media only screen 
@@ -399,7 +489,6 @@ and (-webkit-device-pixel-ratio: 3) {
     display: block;
     padding: 40px;
     font-size: 27px;
-
   }
 
   .titlediv {
@@ -455,6 +544,7 @@ and (-webkit-device-pixel-ratio: 3) {
     margin: 10px 15px;
     text-align: center;
   }
+  
 }
 
 
@@ -566,76 +656,6 @@ and (max-device-width : 640px) {
 
 }
 
-
-
-
-/*************** FOR PROJECTS ******************/
-.projectheader {
-  text-align: center;
-  width: 100%;
-  height: 60px;
-  padding-top: 70px;
-}
-
-.projectheader h2 {
-   font-weight: bold;
-}
-
-.projectcontainer {
-  width: 100%;
-  margin-top: 30px;
-  padding: 30px;
-  text-align: center;
-}
-
-.projectrow1 {
-  width: 30%;
-  height: 34vh;
-  background-color: white;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  overflow: hidden;
-  transition: .5s;
-  /* border-radius: 5px; */
-  box-shadow: 0 3px 5px rgba(0,0,0,.5);
-  margin: 0px -2px;
-}
-
-.projectrow1image img {
-  width: 100%;
-  height: 34vh;
-  transition: .5s;
-}
-
-.projectrow1:hover .projectrow1image img {
-  opacity: .03;
-}
-
-.projectrow1 .description {
-  position: absolute;
-  margin: auto 10%;
-  padding: 20px;
-  box-sizing: border-box;
-  transition: .5s;
-  opacity: 0;
-}
-
-.projectrow1:hover .description {
-  opacity: 1;
-  bottom: 25%;
-}
-
-.carouselimg  {
-  width: 100%;
-  height: 60vh;
-}
-
-#carouselExampleIndicators {
-  padding: 5%;
-  width: 200%;
-  margin: 0 auto;
-}
 
 
 
