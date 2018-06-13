@@ -19,9 +19,11 @@
 
 	<!-- jquery and js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="navshrink.js"></script>
 
+	<!-- for bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 
 	
 
@@ -34,15 +36,16 @@
 			<i class="fa fa-bars fa-2x"></i>
 		</div>
 		<div class="logo" id="link5">
-			LOGO
+			DO
 		</div>
 		<div class="menu">
 			<ul>
-				<li><a href="#homediv" id="link0">Home</a></li>
-				<li><a href="#aboutdiv" id="link1">About</a></li>
-				<li><a href="#educationdiv" id="link2">Education</a></li>
-				<li><a href="#projectdiv" id="link3">Projects</a></li>
-				<li><a href="#experiencediv" id="link4">Experience</a></li>
+				<li><a href="#homediv" class="coollink" id="link0">Home</a></li>
+				<li><a href="#aboutdiv" class="coollink" id="link1">About</a></li>
+				<li><a href="#skillsdiv" class="coollink" id="link4">Skills</a></li>
+				<li><a href="#educationdiv" class="coollink" id="link2">Education</a></li>
+				<li><a href="#projectdiv" class="coollink" id="link3">Projects</a></li>
+				
 			</ul>
 		</div>
 	</nav>
@@ -73,7 +76,18 @@
 			</div>
 		</div>
 
-		<div id="aboutmecontent1">
+		
+	</div>
+
+
+
+
+
+	<div id="skillsdiv">
+
+
+
+<div id="aboutmecontent1">
 			<h2>My Skills</h2>
 			<div class="skillrow">
 				<div class="skillcol">
@@ -96,6 +110,10 @@
 					<i class="icon-bootstrap"></i>
 					<p>Bootstrap</p>
 				</div>
+					<div class="skillcol">
+					<i class="icon-python"></i>
+					<p>Python</p>
+				</div>
 			</div>
 			<div class="skillrow">
 				<div class="skillcol">
@@ -110,8 +128,6 @@
 					<i class="icon-mysql"></i>
 					<p>MySQL</p>
 				</div>
-			</div>
-			<div class="skillrow">
 				<div class="skillcol">
 					<i class="icon-angular"></i>
 					<p>Angular</p>
@@ -126,27 +142,83 @@
 					<p>MongoDB</p>
 				</div>
 			</div>
-			<div class="skillrow">
-				<div class="skillcol">
-					<i class="icon-python"></i>
-					<p>Python</p>
-				</div>
-			</div>
 		</div>
+
+
+
+
+
+
+
+
+
 	</div>
 
 
+	<div id="educationdiv"> EDUCATION </div>
+
+	<div id="projectdiv">
+		<!-- <div class="projectheader">
+			<h2>Projects</h2>
+		</div> -->
+		<div class="projectcontainer">
+			<div class="projectrow1">
+				<div class="projectrow1image">
+					<img src="http://ava7.com/w/basketball-teams/denver-nuggets/denver-nuggets-nba-basketball-team.jpg" alt="">
+				</div>
+				<div class="description">
+					<h4>HoopFinder</h4>
+					<p>Python/Django/Bootstrap/MySQL</p>
+					<button type="button" class="btn btn-success" data-toggle="modal" data-target="#mymodal">Learn More</button>
+				</div>
+			</div>
+			<div class="projectrow1">
+				<div class="projectrow1image">
+					<img src="https://cdn.cultofmac.com/wp-content/uploads/2017/05/apple.png" alt="">
+				</div>
+				<div class="description">
+					<h4>HoopFinder</h4>
+					<p>Python/Django/Bootstrap/MySQL</p>
+					<a href="#projectsdiv" class="btn btn-success">Learn More</a>
+				</div>
+			</div>
+			<div class="projectrow1">
+				<div class="projectrow1image">
+					<img src="https://wallpapercave.com/wp/wc1709979.jpg" alt="">
+				</div>
+				<div class="description">
+					<h4>HoopFinder</h4>
+					<p>Python/Django/Bootstrap/MySQL</p>
+					<a href="#projectsdiv" class="btn btn-success">Learn More</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="mymodal">
+			<div class="modal-dialog">
+				<div class="modeal-content">
+					<div class="modal-header">
+						<h3>A title for my modal</h3>
+					</div>
+					<div class="modal-body">
+						<p>Some content goes in here</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-	<div id="educationdiv">Education</div>
-
-	<div id="projectdiv">Projects</div>
-	<div id="experiencediv">Experience</div>
 
 
 
 
 
+	</div> <!--    end of projectsdiv -->
+		
+	
 </body>
 </html>
 

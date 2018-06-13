@@ -24,7 +24,7 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop:$path},850);
    });
    $("#link4").click(function(){
-        $path=$("#experiencediv").offset().top;
+        $path=$("#skillsdiv").offset().top;
         $('html, body').animate({scrollTop:$path},850);
    });
    $("#link5").click(function(){

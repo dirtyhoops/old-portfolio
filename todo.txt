@@ -1,0 +1,6 @@
+1. make a separate page for skills
+2. devicon - get icons for skills
+3. make sure the modal is working
+4. make a contact me inside About me page
+5. polish the project site
+6. get the skills size bigger

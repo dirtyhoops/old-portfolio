@@ -34,7 +34,7 @@ body {
   z-index: -5;
 }
 
-#homediv, #aboutdiv, #projectdiv, #educationdiv, #experiencediv {
+#homediv, #aboutdiv, #projectdiv, #educationdiv, #skillsdiv {
   width: 100%;
   height: 100vh;
   /*line-height: 100vh;     maybe delete this line when were adding some content inside the div*/
@@ -45,7 +45,8 @@ body {
 }
 
 #aboutdiv {
-  background-color: rgb(75, 206, 206);
+  background-color: whitesmoke;
+  padding: 5%;
 }
 
 #educationdiv {
@@ -55,10 +56,14 @@ body {
 
 #projectdiv {
   background-color: aqua;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 8% 1%;;
 }
 
-#experiencediv {
-  background-color: deeppink;
+#skillsdiv {
+  background-color: white;
+  padding: 5%;
+  text-align: center;
 }
 
 
@@ -132,6 +137,27 @@ nav ul li a {
   font-size: 20px;
 }
 
+
+.coollink::after {
+  content: '';
+  width: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.coollink:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.coollink:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
 .menu-icon {
   width: 100%;
   background: #000;
@@ -149,7 +175,7 @@ nav ul li a {
 /************** #aboutme ******************/
 
 #aboutdiv {
-  font-family: 'Titillium Web', sans-serif;
+  /*font-family: 'Titillium Web', sans-serif;*/
 }
 
 
@@ -159,17 +185,17 @@ nav ul li a {
 }
 
 .aboutmepicture img {
-  width: 200px;
+  width: 180px;
   border: 1px solid black;
   border-radius: 50%;
-  margin: 80px 0px 20px 0px;
+  margin: 40px 0px 20px 0px;
 }
 
 #aboutmecontent {
   margin: 10px;
   padding: 30px;
-  font-size: 1.3em;
-  width: 48%;
+  font-size: 1.1em;
+  width: 100%;
 }
 
 #aboutmecontent h2, #aboutmecontent1 h2 {
@@ -178,31 +204,25 @@ nav ul li a {
 }
 
 
-#aboutmecontent, #aboutmecontent1 {
-  display: inline-block;
-}
-
-
 #aboutmecontent p {
   text-indent: 2em;
 }
 
 #aboutmecontent1 {
-  margin: 10px;
+  margin: auto;
   font-size: 1.3em;
-  width: 48%;
+  width: 100%;
   padding-top: 80px;
-  vertical-align: top;
 }
 
-#aboutdiv i {
-  font-size: 50px;
+#skillsdiv i {
+  font-size: 65px;
   color: rgb(44, 32, 32);
 }
 
-#aboutdiv i:hover{
+#skillsdiv i:hover{
   color: gray;
-  font-size: 51px;
+  font-size: 66px;
 }
 
 .skillrow {
@@ -336,7 +356,10 @@ and (-webkit-device-pixel-ratio: 3) {
 }
 
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-height: 812px) 
+and (-webkit-device-pixel-ratio: 3) {
   .logo {
     position: fixed;
     top: 0;
@@ -546,116 +569,73 @@ and (max-device-width : 640px) {
 
 
 
-
-
-
-
- 
-
-/*
-@media(max-width: 1079px) {
-  .aboutmepicture img {
-    margin: 85px 0px 20px 0px;
-    width: 130px;
-  }
-
-  #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 1.3em;
-  }
-
-  #aboutmecontent p, #aboutmecontent1 p {
-    font-size: .7em;
-  }
-
-  #aboutmecontent {
-    padding-top: 5px;
-    margin: 10px 0px 0px 0px;
-    width: 100%;
-  }
-
-  #aboutmecontent1 {
-    padding: 20px;
-    margin: 10px 0px 0px 0px;
-    width: 100%;
-  }
-
-  #aboutdiv {
-    height: 120vh;
-    width: 100%;
-    font-size: 1.2em;
-  }
-
-  #aboutdiv i {
-  font-size: 40px;
+/*************** FOR PROJECTS ******************/
+.projectheader {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  padding-top: 70px;
 }
 
-#aboutdiv i:hover{
-  color: gray;
-  font-size: 41px;
+.projectheader h2 {
+   font-weight: bold;
 }
 
-  .skillrow {
-    text-align: center;
-  }
-
-  .skillcol {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-  }
-} */
-/*
- @media(max-width: 1280px) {
-  .aboutmepicture img {
-    margin: 85px 0px 20px 0px;
-    width: 130px;
-  }
-
-  #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 1.3em;
-  }
-
-  #aboutmecontent p, #aboutmecontent1 p {
-    font-size: .7em;
-  }
-
-  #aboutmecontent {
-    padding-top: 5px;
-    margin: 10px 0px 0px 0px;
-    width: 48%;
-  }
-
-  #aboutmecontent1 {
-    padding: 65px;
-    margin: 10px 0px 0px 0px;
-    width: 48%;
-  }
-
-  #aboutdiv {
-    height: 120vh;
-    width: 100%;
-    font-size: 1.2em;
-  }
-
-  #aboutdiv i {
-  font-size: 40px;
+.projectcontainer {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
 }
 
-#aboutdiv i:hover{
-  color: gray;
-  font-size: 41px;
+.projectrow1 {
+  width: 30%;
+  height: 34vh;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+  /* border-radius: 5px; */
+  box-shadow: 0 3px 5px rgba(0,0,0,.5);
+  margin: 0px -2px;
 }
 
-  .skillrow {
-    text-align: center;
-  }
+.projectrow1image img {
+  width: 100%;
+  height: 34vh;
+  transition: .5s;
+}
 
-  .skillcol {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-  }
-} 
+.projectrow1:hover .projectrow1image img {
+  opacity: .03;
+}
+
+.projectrow1 .description {
+  position: absolute;
+  margin: auto 10%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  opacity: 0;
+}
+
+.projectrow1:hover .description {
+  opacity: 1;
+  bottom: 25%;
+}
+
+.carouselimg  {
+  width: 100%;
+  height: 60vh;
+}
+
+#carouselExampleIndicators {
+  padding: 5%;
+  width: 200%;
+  margin: 0 auto;
+}
 
 
-*/
+
