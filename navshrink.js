@@ -31,6 +31,10 @@ $(document).ready(function(){
         $path=$("#homediv").offset().top;
         $('html, body').animate({scrollTop:$path},850);
    });
+   $("#link6").click(function(){
+        $path=$("#contactdiv").offset().top;
+        $('html, body').animate({scrollTop:$path},850);
+   });
 
 });
 

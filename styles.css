@@ -7,7 +7,9 @@ html, body{
 }
 
 
-/*.intro {
+
+
+.intro {
   height: 100%;
   width: 100%;
   margin: auto;
@@ -22,7 +24,7 @@ html, body{
   vertical-align: middle;
   width: 100%;
   max-width: none;
-}*/
+}
 
 .titlecontent {
   max-width: 500px;
@@ -60,7 +62,7 @@ html, body{
   z-index: -5;
 }
 
-#homediv, #aboutdiv, #projectdiv, #educationdiv, #skillsdiv {
+#homediv, #aboutdiv, #projectdiv, #educationdiv, #skillsdiv, #contactdiv {
   width: 100%;
   height: 100vh;
   /*line-height: 100vh;     maybe delete this line when were adding some content inside the div*/
@@ -76,12 +78,11 @@ html, body{
 }
 
 #educationdiv {
-  background-color: gold;
-  color: white;
+  background-color: whitesmoke;
 }
 
 #projectdiv {
-  background-color: aqua;
+  background-color: white;
   font-family: 'Titillium Web', sans-serif;
   padding: 8% 1%;
 }
@@ -91,6 +92,11 @@ html, body{
   padding: 5%;
   text-align: center;
 }
+
+#contactdiv {
+  background-color: whitesmoke;
+}
+
 
 .skilliconimage img{
   width: 65px;
@@ -210,8 +216,7 @@ nav ul li a {
 
 .aboutmepicture img {
   width: 180px;
-  border: 1px solid black;
-  border-radius: 50%;
+  border: 7px solid #fff;
   margin: 40px 0px 20px 0px;
 }
 
@@ -316,11 +321,28 @@ nav ul li a {
 
 .projectrow1:hover .description {
   opacity: 1;
-  bottom: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 12% auto;
 }
 
-/*******************************************************************************************/
+/********************************for education*********************************/
+#educationdiv {
+  color: black;
+  text-align: left;
+  padding-top: 100px;
+}
 
+.educationcontent {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.educ {
+  margin-bottom: 40px;
+}
 
 
 
@@ -443,15 +465,6 @@ and (-webkit-device-pixel-ratio: 3) {
   font-size: 115px;
   }
 
-.skilliconimage img{
-  width: 85px;
-}
-
-.skillp {
-  margin-top: 13px;
-}
-
-
   .skillrow {
     text-align: center;
   }
@@ -475,6 +488,15 @@ and (-webkit-device-pixel-ratio: 3) {
     height: 120vh;
   }
 
+  .projectrow1:hover .description {
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 25% auto;
+}
+
   .coollink::after {
     content: none;
   }
@@ -482,6 +504,24 @@ and (-webkit-device-pixel-ratio: 3) {
   #skillsdiv {
     padding-top: 160px;
   }
+
+  .educationcontent {
+    width: 90%;
+   font-size: 1.4em;
+  }
+
+  .educationcontent h5{
+    font-size: 1.1em;
+  }
+
+  .educationcontent h6{
+    font-size: 1em;
+  }
+
+  #educationdiv {
+    padding-top: 220px;
+  }
+
 }
 
 
