@@ -6,9 +6,6 @@ html, body{
   padding: 0;
 }
 
-
-
-
 .intro {
   height: 100%;
   width: 100%;
@@ -99,7 +96,7 @@ html, body{
 
 
 .skilliconimage img{
-  width: 65px;
+  width: 75px;
 }
 
 .skillp {
@@ -346,8 +343,67 @@ nav ul li a {
 
 
 
+/**********************for contact********************************/
 
 
+#contactdiv {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contactdiv .section-heading {
+  color: #fff;
+}
+
+#contactdiv .form-group {
+  margin-bottom: 25px;
+}
+
+#contactdiv .form-group input,
+#contactdiv .form-group textarea {
+  padding: 20px;
+}
+
+#contactdiv .form-group input.form-control {
+  height: auto;
+}
+
+#contactdiv .form-group textarea.form-control {
+  height: 248px;
+}
+
+#contactdiv .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+#contactdiv ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#contactdivdiv :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 18- */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#contactdiv ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 19+ */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#contactdiv :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 
 
@@ -377,6 +433,10 @@ nav ul li a {
   }
 }
 
+
+#contactdiv .container {
+  padding-top: 100px;
+}
 
 
 
@@ -435,18 +495,23 @@ and (-webkit-device-pixel-ratio: 3) {
     width: 245px;
   }
 
-  #aboutmecontent h2, #aboutmecontent1 h2 {
-  font-size: 2.6em;
+ /* #aboutmecontent h2, #aboutmecontent1 h2 {
+    font-size: 2.7em;
   }
 
   #aboutmecontent p, #aboutmecontent1 p {
-    font-size: 1.7em;
-  }
+    font-size: 1.8em;
+  }*/
+
+  #contactdiv .container {
+  padding-top: 200px;
+}
 
   #aboutmecontent {
     padding-top: 5px;
     margin: 0;
     width: 100%;
+    font-size: 1.4em;
   }
 
   #aboutmecontent1 {
@@ -475,6 +540,10 @@ and (-webkit-device-pixel-ratio: 3) {
     text-align: center;
   }
 
+  .skilliconimage img {
+    width: 115px;
+  }
+
 
   .projectrow1 {
     width: 95%;
@@ -489,13 +558,13 @@ and (-webkit-device-pixel-ratio: 3) {
   }
 
   .projectrow1:hover .description {
-  opacity: 1;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: 25% auto;
-}
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 25% auto;
+  }
 
   .coollink::after {
     content: none;
@@ -503,19 +572,20 @@ and (-webkit-device-pixel-ratio: 3) {
 
   #skillsdiv {
     padding-top: 160px;
+    font-size: 1.4em;
   }
 
   .educationcontent {
     width: 90%;
-   font-size: 1.4em;
+   font-size: 1.8em;
   }
 
   .educationcontent h5{
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   .educationcontent h6{
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   #educationdiv {
